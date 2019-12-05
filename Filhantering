@@ -1,0 +1,11 @@
+public class Filhantering {
+    public static void main(String[] args) {
+        Scanner in = null;
+        try {
+            in = new Scanner(new File("test.dat"));
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
